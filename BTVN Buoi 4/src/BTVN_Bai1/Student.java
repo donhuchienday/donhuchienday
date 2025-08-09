@@ -23,8 +23,8 @@ public class Student {
         return name;
     }
     public int gettuoi(){
-        int namhientai = Year.now().getValue();
-        return namhientai - namSinh;
+            int namhientai = Year.now().getValue();
+            return namhientai - namSinh;
     }
     public double getGPA(){
         return (tx1*0.2 + tx2 * 0.3 + Kthp* 0.5);

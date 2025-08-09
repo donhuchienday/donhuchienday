@@ -14,8 +14,6 @@ public class Main {
         System.out.printf("%-15s%-10s%-15s%-12s%-12s%-14s%-10s%-12s\n",
                 "Tên", "Tuổi", "Địa chỉ", "Điểm TX1", "Điểm TX2", "Điểm KTHP", "GPA", "Số tiết nghỉ");
 
-        // Dữ liệu từng sinh viên
-        Student[] Student;
         for (Student s : students) {
             System.out.printf("%-15s%-10d%-15s%-12.2f%-12.2f%-14.2f%-15.2f%-12d\n",
                     s.getname(), s.gettuoi(), s.getAddress(), s.getTx1(), s.getTx2(), s.getKthp(), s.getGPA(), s.getSoTietNghi());
